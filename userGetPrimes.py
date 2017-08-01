@@ -30,7 +30,9 @@ def genPrimes():
 def userGetPrimes():
     """
     Main method.
-    Asks for input and runs genPrimes either 1 time or the amount asked for
+    Asks for input and runs genPrimes either once if input is "n" 
+    or the amount asked for by input of int
+    or exits if given "e"
     """
     print("Hello Human, im here to get primes for you!")
     gen = genPrimes()
